@@ -1,2 +1,2 @@
 # image-processing
-Salient Object Segmentation
+Code and data for Image processing term project Salient Object Segmentation
