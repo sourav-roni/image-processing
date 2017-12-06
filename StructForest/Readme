@@ -1,0 +1,17 @@
+Dependency : OpenCv with C++ 
+             https://www.learnopencv.com/install-opencv3-on-ubuntu/
+
+To change input folder of the image -
+	Change the path in lines 23 and 30
+
+TO change the output folder -
+	Create the new directory and change its path in the line number 33
+
+How to Compile -
+
+ 	g++ -std=c++11 forest.cpp `pkg-config --libs --cflags opencv` -o forest
+
+Run -
+	./forest
+
+
